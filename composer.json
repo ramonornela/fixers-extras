@@ -2,9 +2,14 @@
     "name" : "ramonornela/fixers-extras",
     "description" : "Fixers extras to (php-cs-fixer)",
     "homepage" : "https://github.com/ramonornela/fixers-extras",
-    "keywords" : ["coding standars", "phpcs", "php-fixer"],
+    "keywords" : ["coding standards", "phpcs", "php-fixer"],
     "license": "MIT",
     "require": {
-         "fabpot/php-cs-fixer": "0.3.*@dev"
-    }
+        "php": ">=5.3.3",
+        "fabpot/php-cs-fixer": "0.3.*"
+    },
+    "autoload": {
+        "psr-0": {"ROExtraFixer\\": "src/"}
+    },
+     "minimum-stability": "dev"
 }
