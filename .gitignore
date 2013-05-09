@@ -1,0 +1,12 @@
+# arquivos de IDE
+*.idea
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.buildpath
+nbproject
+.zfproject.xml
+*.sublime-project
+*.sublime-workspace
