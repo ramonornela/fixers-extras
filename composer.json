@@ -1,0 +1,10 @@
+{
+    "name" : "ramonornela/fixers-extras",
+    "description" : "Fixers extras to ()",
+    "homepage" : "https://github.com/ramonornela/fixers-extras",
+    "keywords" : ["coding standars", "phpcs", "php-fixer"],
+    "license": "MIT",
+    "require": {
+         "fabpot/php-cs-fixer": "0.3.*@dev"
+    }
+}
