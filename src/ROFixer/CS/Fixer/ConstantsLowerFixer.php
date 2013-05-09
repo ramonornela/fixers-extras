@@ -49,6 +49,6 @@ class ConstantsLowerFixer implements FixerInterface
 
     public function getDescription()
     {
-        return '';
+        return 'Description';
     }
 }
