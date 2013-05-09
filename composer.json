@@ -1,6 +1,6 @@
 {
     "name" : "ramonornela/fixers-extras",
-    "description" : "Fixers extras to ()",
+    "description" : "Fixers extras to (php-cs-fixer)",
     "homepage" : "https://github.com/ramonornela/fixers-extras",
     "keywords" : ["coding standars", "phpcs", "php-fixer"],
     "license": "MIT",
