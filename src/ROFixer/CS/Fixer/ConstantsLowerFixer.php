@@ -9,7 +9,7 @@
 * with this source code in the file LICENSE.
 */
 
-namespace ROFixer\CS\Fixer;
+namespace ROExtraFixer\CS\Fixer;
 
 use Symfony\CS\FixerInterface;
 
