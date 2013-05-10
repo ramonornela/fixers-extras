@@ -20,11 +20,7 @@ class ConstantsLowerFixer implements FixerInterface
 {
     public function fix(\SplFileInfo $file, $content)
     {
-        if (!preg_match('/[\"\'].*(TRUE|FALSE|NULL).*[\"\']/s', $content)) {
-            return preg_replace('/\b(TRUE|FALSE|NULL)\b/e', "strtolower('$1')", $content);
-        }
-
-        return $content;
+        return preg_replace('/\b(TRUE|FALSE|NULL)\b/e', "strtolower('$1')", $content);
     }
 
     public function getLevel()
