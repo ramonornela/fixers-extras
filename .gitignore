@@ -10,3 +10,4 @@ nbproject
 .zfproject.xml
 *.sublime-project
 *.sublime-workspace
+vendor
